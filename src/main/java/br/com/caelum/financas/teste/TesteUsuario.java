@@ -29,6 +29,8 @@ public class TesteUsuario {
 		telefones.add(telefone1);
 		telefones.add(telefone2);
 		
+		telefones.forEach(t -> t.setUsuarioId(usuario.getId()));
+		
 		usuario.setTelefones(telefones);
 		
         em.getTransaction().begin();
