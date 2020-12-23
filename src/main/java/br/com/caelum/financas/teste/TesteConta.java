@@ -8,18 +8,18 @@ import br.com.caelum.financas.util.JPAUtil;
 public class TesteConta {
 	
 	public static void main(String[] args) {
-		EntityManager em = new JPAUtil().getEntityManager();
-		
-		Conta conta = new Conta();
-        conta.setTitular("Leonardo");
-        conta.setBanco("Caixa Economica");
-        conta.setAgencia("123");
-        conta.setNumero("456");
-        
-        em.getTransaction().begin();
-        em.persist(conta);
-        em.getTransaction().commit();
-
-        em.close();
+//		EntityManager em = new JPAUtil().getEntityManager();
+//
+//		Conta conta = new Conta();
+//        conta.setTitular("Leonardo");
+//        conta.setBanco("Caixa Economica");
+//        conta.setAgencia("123");
+//        conta.setNumero("456");
+//
+//        em.getTransaction().begin();
+//        em.persist(conta);
+//        em.getTransaction().commit();
+//
+//        em.close();
 	}
 }
